@@ -1,0 +1,8 @@
+file,panel,n_rows,columns,description
+ici_nonici_cindex.csv,fig3b / fig3c,14,panel_set|ae|panel_order|subset|c_index|ci_low|ci_high|n_samples|n_events|status,"C-index (95% bootstrap CI) for ICI vs non-ICI subsets per panel set, AE, subset."
+ici_nonici_incidence_curves.csv,fig3b / fig3c,12497,panel_set|ae|subset|risk_tertile|n_samples|time_days|cum_incidence|ci_low|ci_high|n_at_risk|status,"KM cumulative-incidence step functions by risk tertile, truncated at 365 days."
+ici_nonici_logrank.csv,fig3b / fig3c,14,panel_set|ae|subset|p_value|n_samples_low|n_samples_medium|n_samples_high|n_events_low|n_events_medium|n_events_high|status,"Multivariate logrank p-value across risk tertiles per subset, with tertile counts."
+ici_nonici_panel_meta.csv,fig3b / fig3c,7,panel_set|ae|panel_order|abundance_events|ymax,Per-panel order and KM y-max needed by the renderer.
+cindex_stratified_lot.csv,supp3a,20,ae|stratum|stratum_order|c_index|ci_low|ci_high|n_samples|n_events|p_value|is_baseline|baseline_group|included_in_figure|status,C-index by line-of-therapy stratum per AE with bootstrap CI and p vs Line 1.
+cindex_stratified_treatment.csv,supp3b,35,ae|stratum|stratum_order|c_index|ci_low|ci_high|n_samples|n_events|p_value|is_baseline|baseline_group|included_in_figure|status,C-index by treatment-modality stratum per AE with bootstrap CI and p vs PD-(L)1.
+cindex_swarm.csv,supp3e,20,ae|model_label|model_type|c_index|delta_vs_base|p_value_vs_base|p_value_vs_base_fdr|n_samples|n_events|paired_n|pairing_method|status,AE-level c-index across the four model types with paired bootstrap p vs base and FDR.

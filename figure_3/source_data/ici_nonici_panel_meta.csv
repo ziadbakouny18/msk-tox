@@ -1,0 +1,8 @@
+panel_set,ae,panel_order,abundance_events,ymax
+A,liver_toxicity,1,2001,0.30000000000000004
+A,hypothyroidism,2,847,0.4
+A,pneumonitis,3,395,0.15000000000000002
+A,colitis,4,271,0.15000000000000002
+A,adrenal_insufficiency,5,61,0.1
+B,all,1,3246,0.6000000000000001
+C,all,1,1082,0.30000000000000004

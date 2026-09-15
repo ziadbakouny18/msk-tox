@@ -1,0 +1,16 @@
+# figure_3 replication dependencies.
+# Pinned to the versions installed in the OncoAE venv at git bd236f8
+# (python 3.12; verified with a clean venv on 3.12.13). Installing only this
+# file is sufficient to render every panel in figures/ from source_data/.
+#
+# The plotting scripts import numpy, pandas, matplotlib and shap; the
+# vendored plotting/aesthetics.py additionally imports seaborn (hence scipy).
+# numba is pinning SHAP's version-sensitive binary against the numpy pin.
+
+numpy==1.26.4
+pandas==2.3.0
+matplotlib==3.10.3
+seaborn==0.13.2
+scipy==1.16.0
+shap==0.48.0
+numba==0.61.2

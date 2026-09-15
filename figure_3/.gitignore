@@ -1,0 +1,10 @@
+# Follow the OncoAE repo convention: no bytecode, venvs, or rendered figures.
+__pycache__/
+.venv/
+figures/
+
+# Readmitted on purpose: the repo-root .gitignore ignores *.csv, but the
+# aggregate source data and this folder's manifest are shipped deliverables.
+!source_data/
+source_data/*
+!source_data/*.csv
