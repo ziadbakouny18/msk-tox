@@ -39,4 +39,4 @@ resolve their own helpers through a literal `scripts/` path component.
 
 This project is licensed under the GNU General Public License v3.0 (GPL-3.0). See the [LICENSE](LICENSE) file for the full text.
 
-Methods described herein are the subject of a pending patent application. For licensing inquiries, contact Memorial Sloan Kettering Cancer Center at [tech transfer email].
+Methods described herein are the subject of a pending patent application. For licensing inquiries, contact Memorial Sloan Kettering Cancer Center at elbakoz@mskcc.org.
